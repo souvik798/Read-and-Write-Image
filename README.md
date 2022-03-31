@@ -28,9 +28,9 @@ i) #To Read,display the image
  cv2.imshow('212221230105-Read&Display',colorImage)
 
 
-```
+
 ii) #To write the image
-```
+
 import cv2
 colorImage = cv2.imread('souvikcar.jpg',1)
 cv2.imwrite('souvikcar.jpg',colorImage)
@@ -41,9 +41,8 @@ cv2.waitKey(0)
 
 
 
-```
 iii) #Find the shape of the Image
-``python3
+
 
 import cv2
 colorImage = cv2.imread('souvikcar.jpg',1)
@@ -53,9 +52,9 @@ print(colorImage.shape)
 
 
 
-```
+
 iv) #To access rows and columns
-```python3
+
 
 import cv2
 import random
@@ -69,9 +68,9 @@ cv2.waitKey(0)
 
 
 
-```
+
 v) #To cut and paste portion of image
-```python3
+
 
 import cv2
 color_img = cv2.imread('souvikcar.jpg',1)
